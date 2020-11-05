@@ -1,0 +1,13 @@
+.postponed{
+	font-size: 64px;
+	position: absolute;
+	border: 3px solid #ff2239;
+	color: #ff2239;
+	padding: 15px 100px 15px 100px;
+
+	background: #fff;
+	opacity: .7;
+	text-align: center;
+	margin: 20%;
+	transform: rotateZ(-15deg);
+}

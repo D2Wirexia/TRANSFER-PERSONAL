@@ -1,0 +1,81 @@
+.vacansion{
+	color: #fff;
+	font-size: 24px;
+}
+.container{
+	display: inline-block;
+}
+.vocansionImg{
+	position: absolute;
+	left: 40%;
+	bottom: 70px;
+	height: 40vh;
+}
+.vocansionImg img{
+	width: 100%;
+	height: 100%;
+}
+.list{
+	position: absolute;
+	top: 50%;
+	transform: translate(0, -50%);
+	z-index: 2;
+}
+.topInfo{
+	width: 90%;
+	position: relative;
+	margin: 20px auto;
+	text-align: justify;
+	text-indent: 1em;
+}
+.menu1, .menu2, .menu3, .menu4{
+	margin-top: 20px;
+	margin-left: 40px;
+}
+ul{
+	padding: 0;
+	list-style-type: none;
+	z-index: 4;
+}
+li {
+	color: #fff;
+	background: #404040;
+	padding: 1em;
+	width: 300px;
+	position: relative;
+	font-size: 18px;
+	list-style-type: none;
+	transition: all .2s linear;
+}
+.title:hover{
+	background: #9b162b;
+	cursor: pointer;
+}
+li:hover > .submenu1,
+li:hover > .submenu2,
+li:hover > .submenu3,
+li:hover > .submenu4{
+	display: block;
+}
+li:hover{
+	margin-left: 10px;
+}
+.submenu1, .submenu2, .submenu3, .submenu4{
+	position: absolute;
+	display: none;
+	left: 100%;
+	top: -100%;
+}
+.submenu4{
+	top: -500%
+}
+ul .submenu1 li,
+ul .submenu2 li,
+ul .submenu3 li,
+ul .submenu4 li{
+	width: 500px;
+	border-bottom: 1px solid #fff;
+}
+ul li:last-child{
+	border-bottom: none;
+}
