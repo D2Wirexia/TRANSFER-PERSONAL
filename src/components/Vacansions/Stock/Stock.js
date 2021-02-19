@@ -66,7 +66,7 @@ const Stock = () => {
 						 </li>
 					 </ul>
 				 </div>
-				 <div className={w.vocansionImg}>
+				 <div className={w.vacansionImg}>
 					 <img src={OperatorImg} />
 				 </div>
 			 </div>

@@ -20,7 +20,9 @@
 .title{
 	color: #D81C38;
 	position: relative;
-	bottom: calc(100vh - calc(100vh - 150px));
+	height: calc(100vh - 100px);
+	float: left;
+	left: 5%;
 }
 .title h1{
 	font-size: 68px;
@@ -28,19 +30,21 @@
 	font-family: Luminari;
 	position: absolute;
 	width: 700px;
+	top: 40px
+
 }
 .title h3{
 	font-size: 36px;
 	font-weight: bold;
 	font-family: Luminari;
 	position: absolute;
-	top: 80px;
+	top: 120px;
+	white-space: nowrap;
+	color: #bb1831;
 }
 .content{
-	display: grid;
-	grid-template-columns: 2fr 1fr;
-	grid-column-gap: 100px;
-	max-width: 1100px;
+	display: flex;
+	min-width: 1100px;
 	width: 100%;
 	position: relative;
 	top: 50%;
@@ -48,16 +52,17 @@
 	transform: translate(-50%, -50%);
 }
 .bonusInfo{
-	position: relative;
-	right: 0;
-	max-width: 800px;
-
-
+	position: absolute;
+	top: 25%;
+	right: 4%;
+	width: 450px;
+	height: calc(100vh - 100px);
 }
 .bonusInfo img{
-	transform: scale(1.2);
-	text-align: center;
-	float: right;
+	position: relative;
+	width: 400px;
+	left: 50%;
+	transform: translate(-50%);
 }
 .bonusInfo p{
 	font-size: 20px;
@@ -65,15 +70,15 @@
 	position: relative;
 	top: 30px;
 	text-align: justify;
-	width: 450px;
 	text-indent: 2em;
-	float: right;
 	font-family: Trebuchet MS;
+}
+.bottomBlock{
+
 }
 .profile{
 	position: absolute;
-
-	bottom: calc(100vh - calc(100vh + 200px));
+	bottom: 120px;
 }
 .photoProfile{
 	width: 150px;
@@ -81,7 +86,7 @@
 	border-radius: 50%;
 	position: relative;
 	left: 50%;
-	transform: translateX(-50%);
+	transform: translate(-50%);
 	bottom: -40px;
 	box-sizing: border-box;
 	z-index: 1;
@@ -95,6 +100,7 @@
 }
 .photoProfile img:hover{
 	transform: scale(1.1);
+	cursor: pointer;
 }
 .shortInfo{
 	background: #404040;

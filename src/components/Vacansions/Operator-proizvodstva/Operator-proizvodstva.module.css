@@ -7,10 +7,11 @@
 }
 .vocansionImg{
 	position: absolute;
-	left: 40%;
+	left: 35%;
 	bottom: 70px;
-	width: 600px;
-	height: 400px;
+	height: 40vh;
+	width: 60%;
+	justify-content: center;
 }
 .vocansionImg img{
 	width: 100%;
@@ -18,7 +19,9 @@
 }
 .list{
 	position: absolute;
-	top: 200px;
+	top: 50%;
+	transform: translate(0, -50%);
+	z-index: 2;
 }
 .topInfo{
 	width: 90%;

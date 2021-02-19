@@ -14,7 +14,7 @@ const item = [
 	},
 	{
 		img: job,
-		description: "СОДЕЙСТВИЕ ПОИСКЕ РАБОТЫ"
+		description: "СОДЕЙСТВИЕ В ПОИСКЕ РАБОТЫ"
 	},
 	{
 		img: home,

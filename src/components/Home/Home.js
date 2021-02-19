@@ -3,7 +3,7 @@ import w from './Home.module.css'
 import backGround from '../../img/main.png'
 import mapSlovak from '../../img/map.png'
 import photoProfile from '../../img/test.png'
-import $ from "jquery";
+import {NavLink} from "react-router-dom";
 
 
 const Home = (props) => {
@@ -15,14 +15,6 @@ const Home = (props) => {
 	const deployed = 'Наша главная задача – трудоустроить хороших, трудолюбивых людей на хорошую работу! ' +
 		 'Если вы заинтересованы этой вакансией – отправьте свое резюме или свяжитесь со мной';
 
-	let detailsInfo = () => {
-		$('#details').css('display', 'none');
-		$('#deployed').css('display', 'block');
-	};
-	let deployedInfo = () => {
-		$('#details').css('display', 'block');
-		$('#deployed').css('display', 'none');
-	};
 	return (
 		 <div className={w.body}>
 			 <div className={w.main}>
@@ -33,19 +25,21 @@ const Home = (props) => {
 					 <h1>Работа в Словакии</h1>
 					 <h3>Начни работать в Европе!</h3>
 					 <div className={w.profile}>
-						 <div className={w.photoProfile}>
-						 	<img src={photoProfile}/>
-						 </div>
+						 <NavLink to={'/contacts'}>
+							 <div className={w.photoProfile}>
+								 <img src={photoProfile}/>
+							 </div>
+						 </NavLink>
 						 <div className={w.shortInfo}>
 							 <div className={w.name} id="name">Юрий</div>
 							 <div className={w.positionWork}>Рекрутер компании Transfer Personal</div>
 							 {
-							 	props.addInfo
-								 ? <div className={w.addInfo} onClick={() => props.setShowInfo(false)} id="details">Подробнее</div>
-									: <div className={w.unShowInfo} onClick={() => props.setShowInfo(true)} id="deployed">
-										 <div className={w.showInfo}>Скрыть</div>
-										 <div className={w.deployed}>{deployed}</div>
-									 </div>
+								 props.addInfo
+									  ? <div className={w.addInfo} onClick={() => props.setShowInfo(false)} id="details">Подробнее</div>
+									  : <div className={w.unShowInfo} onClick={() => props.setShowInfo(true)} id="deployed">
+										  <div className={w.showInfo}>Скрыть</div>
+										  <div className={w.deployed}>{deployed}</div>
+									  </div>
 
 							 }
 
@@ -63,7 +57,7 @@ const Home = (props) => {
 			 </div>
 			 <footer>
 				 <div>©2020 Работа в Словакии. Сайт визитка - &nbsp;
-					 <a href="https://transfer-personal.com/sk/">TRANSFER PERSONAL</a>
+					 <a href="https://transfer-personal.com/sk/"><u>TRANSFER PERSONAL</u></a>
 				 </div>
 			 </footer>
 		 </div>

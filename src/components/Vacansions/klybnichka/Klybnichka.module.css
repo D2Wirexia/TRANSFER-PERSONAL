@@ -7,9 +7,11 @@
 }
 .vocansionImg{
 	position: absolute;
-	left: 40%;
+	left: 35%;
 	bottom: 70px;
 	height: 40vh;
+	width: 60%;
+	justify-content: center;
 }
 .vocansionImg img{
 	width: 100%;

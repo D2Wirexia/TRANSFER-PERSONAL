@@ -6,6 +6,7 @@ import OperatorProizvodstva from "./Operator-proizvodstva/Operator-proizvodstva"
 import Stock from "./Stock/Stock";
 import Klybnichka from "./klybnichka/Klybnichka";
 import NoVac from "./NoVac/NoVac";
+import Neon from "../Neon";
 
 const Vacansions = () => {
 	const setOnly_Operator_proizvodstva = true;
@@ -31,6 +32,7 @@ const Vacansions = () => {
 			 </div>
 			 <div className={w.componentVac}>
 				 <div className={w.backComponentVac} />
+				 <Route exact path="/vacancies/" component={OperatorProizvodstva} />
 				 <Route path="/vacancies/Operator-proizvodstva" render={() => <OperatorProizvodstva/> }/>
 				 <Route path="/vacancies/sklad" render={() => <Stock/> }/>
 				 {
