@@ -31,13 +31,13 @@ const Home = (props) => {
 							 </div>
 						 </NavLink>
 						 <div className={w.shortInfo}>
-							 <div className={w.name} id="name">Юрий</div>
+							 <div className={w.name}>Юрий</div>
 							 <div className={w.positionWork}>Рекрутер компании Transfer Personal</div>
 							 {
 								 props.addInfo
-									  ? <div className={w.addInfo} onClick={() => props.setShowInfo(false)} id="details">Подробнее</div>
-									  : <div className={w.unShowInfo} onClick={() => props.setShowInfo(true)} id="deployed">
-										  <div className={w.showInfo}>Скрыть</div>
+									  ? <div className={w.addInfo} onClick={() => props.setShowInfo(false)}>Подробнее</div>
+									  : <div className={w.unShowInfo}>
+										  <div className={w.showInfo} onClick={() => props.setShowInfo(true)}>Скрыть</div>
 										  <div className={w.deployed}>{deployed}</div>
 									  </div>
 
