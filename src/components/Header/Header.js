@@ -3,7 +3,7 @@ import w from './Header.module.css';
 import {NavLink} from "react-router-dom";
 import logoType from './../../img/logo.png'
 
-const Header = () => {
+const Header = (props) => {
 	return (
 		 <div className={w.header}>
 			 <div className={w.logo}>
@@ -12,10 +12,14 @@ const Header = () => {
 				 </a>
 			 </div>
 			 <div className={w.nav}>
-				 <NavLink to="/main" activeClassName={w.active}>Главная</NavLink>
-				 <NavLink to="/vacancies" activeClassName={w.active}>Вакансии</NavLink>
-				 <NavLink to="/services" activeClassName={w.active}>Услуги</NavLink>
-				 <NavLink to="/contacts" activeClassName={w.active}>Контакты</NavLink>
+				 <NavLink to="/main" activeClassName={w.active}
+							 onClick={()=> props.setStateBorder(false)}>Главная</NavLink>
+				 <NavLink to="/vacancies" activeClassName={w.active}
+							 onClick={()=> props.setStateBorder(false)}>Вакансии</NavLink>
+				 <NavLink to="/services" activeClassName={w.active}
+							 onClick={()=> props.setStateBorder(false)}>Услуги</NavLink>
+				 <NavLink to="/contacts" activeClassName={w.active}
+							 onClick={()=> props.setStateBorder(false)}>Контакты</NavLink>
 			 </div>
 		 </div>
 	);

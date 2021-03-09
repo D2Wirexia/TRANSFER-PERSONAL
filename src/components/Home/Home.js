@@ -4,6 +4,7 @@ import backGround from '../../img/main.png'
 import mapSlovak from '../../img/map.png'
 import photoProfile from '../../img/test.png'
 import {NavLink} from "react-router-dom";
+import {setShowInfo} from "../../redux/HomeReducer";
 
 
 const Home = (props) => {
@@ -14,7 +15,6 @@ const Home = (props) => {
 		 'радостью вас проконсультируем по любым вопросам в Вайбере, Вотсапе или Телеграме.';
 	const deployed = 'Наша главная задача – трудоустроить хороших, трудолюбивых людей на хорошую работу! ' +
 		 'Если вы заинтересованы этой вакансией – отправьте свое резюме или свяжитесь со мной';
-
 	return (
 		 <div className={w.body}>
 			 <div className={w.main}>

@@ -8,6 +8,7 @@
 	width: 100%;
 	height: calc(100vh - 100px);
 	bottom: 0;
+	background: #fff;
 }
 .main img{
 	position: fixed;

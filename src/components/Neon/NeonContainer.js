@@ -1,12 +1,12 @@
 import {connect} from 'react-redux'
-import Home from "./Home";
 import {setShowInfo} from "../../redux/HomeReducer";
+import Neon from "./Neon";
 
 let mapStateToProps = (state) => {
 	return {
-		addInfo: state.homePage.addInfo
+		border: state.homePage.border
 	}
 };
 
 
-export default connect(mapStateToProps, {setShowInfo})(Home);
+export default connect(mapStateToProps, {setShowInfo})(Neon);

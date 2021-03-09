@@ -2,7 +2,18 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="6cb98e31-b6cd-4655-8ee2-e22ee5bbd92a" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/src/components/Header/HeaderContainer.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/Neon/NeonContainer.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Header/Header.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Header/Header.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Home/Home.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Home/Home.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Home/Home.module.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Home/Home.module.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Home/HomeContainer.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Home/HomeContainer.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Neon.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Neon/Neon.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Neon.module.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Neon/Neon.module.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/song.mp3" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Neon/song.mp3" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/redux/HomeReducer.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/redux/HomeReducer.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -42,6 +53,7 @@
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\React-project\TRANSFER-PERSONAL\transfer-personal\src\components\Neon" />
       <recent name="D:\React-project\TRANSFER-PERSONAL\transfer-personal\src\components\Vacansions" />
       <recent name="D:\React-project\TRANSFER-PERSONAL\transfer-personal\src\components\Services\StickySlider" />
       <recent name="D:\React-project\TRANSFER-PERSONAL\transfer-personal\src\components\Services" />
@@ -103,7 +115,7 @@
       <workItem from="1615287320800" duration="641000" />
       <workItem from="1615287978679" duration="414000" />
       <workItem from="1615291860258" duration="1349000" />
-      <workItem from="1615294464390" duration="11569000" />
+      <workItem from="1615294464390" duration="13233000" />
     </task>
     <servers />
   </component>
@@ -111,30 +123,30 @@
     <option name="version" value="1" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="398" y="295" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1615288150932">
+    <state x="398" y="295" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1615308207047">
       <screen x="0" y="0" width="1280" height="984" />
     </state>
-    <state x="398" y="295" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1280.984@0.0.1280.984" timestamp="1615288150932" />
+    <state x="398" y="295" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1280.984@0.0.1280.984" timestamp="1615308207047" />
     <state x="420" y="247" key="FileChooserDialogImpl" timestamp="1615293272811">
       <screen x="0" y="0" width="1280" height="984" />
     </state>
     <state x="420" y="247" key="FileChooserDialogImpl/0.0.1280.984@0.0.1280.984" timestamp="1615293272811" />
-    <state width="1259" height="263" key="GridCell.Tab.0.bottom" timestamp="1615306869715">
+    <state width="1259" height="263" key="GridCell.Tab.0.bottom" timestamp="1615307163810">
       <screen x="0" y="0" width="1280" height="984" />
     </state>
-    <state width="1259" height="263" key="GridCell.Tab.0.bottom/0.0.1280.984@0.0.1280.984" timestamp="1615306869715" />
-    <state width="1259" height="263" key="GridCell.Tab.0.center" timestamp="1615306869715">
+    <state width="1259" height="263" key="GridCell.Tab.0.bottom/0.0.1280.984@0.0.1280.984" timestamp="1615307163810" />
+    <state width="1259" height="263" key="GridCell.Tab.0.center" timestamp="1615307163810">
       <screen x="0" y="0" width="1280" height="984" />
     </state>
-    <state width="1259" height="263" key="GridCell.Tab.0.center/0.0.1280.984@0.0.1280.984" timestamp="1615306869715" />
-    <state width="1259" height="263" key="GridCell.Tab.0.left" timestamp="1615306869715">
+    <state width="1259" height="263" key="GridCell.Tab.0.center/0.0.1280.984@0.0.1280.984" timestamp="1615307163810" />
+    <state width="1259" height="263" key="GridCell.Tab.0.left" timestamp="1615307163810">
       <screen x="0" y="0" width="1280" height="984" />
     </state>
-    <state width="1259" height="263" key="GridCell.Tab.0.left/0.0.1280.984@0.0.1280.984" timestamp="1615306869715" />
-    <state width="1259" height="263" key="GridCell.Tab.0.right" timestamp="1615306869715">
+    <state width="1259" height="263" key="GridCell.Tab.0.left/0.0.1280.984@0.0.1280.984" timestamp="1615307163810" />
+    <state width="1259" height="263" key="GridCell.Tab.0.right" timestamp="1615307163810">
       <screen x="0" y="0" width="1280" height="984" />
     </state>
-    <state width="1259" height="263" key="GridCell.Tab.0.right/0.0.1280.984@0.0.1280.984" timestamp="1615306869715" />
+    <state width="1259" height="263" key="GridCell.Tab.0.right/0.0.1280.984@0.0.1280.984" timestamp="1615307163810" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
