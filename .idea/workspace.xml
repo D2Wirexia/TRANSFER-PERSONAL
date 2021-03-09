@@ -3,17 +3,8 @@
   <component name="ChangeListManager">
     <list default="true" id="6cb98e31-b6cd-4655-8ee2-e22ee5bbd92a" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/Contacts/Contacts.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Contacts/Contacts.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/Home/Home.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Home/Home.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/Home/HomeContainer.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Home/HomeContainer.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/Neon.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Neon.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/Services/Services.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Services/Services.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/Vacansions/Operator-proizvodstva/Operator-proizvodstva.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Vacansions/Operator-proizvodstva/Operator-proizvodstva.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/Vacansions/Stock/Stock.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Vacansions/Stock/Stock.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/Vacansions/Vacansions.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Vacansions/Vacansions.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/Vacansions/klybnichka/Klybnichka.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Vacansions/klybnichka/Klybnichka.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/Vacansions/klybnichka/Klybnichka.module.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Vacansions/klybnichka/Klybnichka.module.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/img/bordel.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/src/img/bordel.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -49,6 +40,7 @@
     <property name="node.js.path.for.package.tslint" value="project" />
     <property name="node.js.selected.package.eslint" value="(autodetect)" />
     <property name="node.js.selected.package.tslint" value="(autodetect)" />
+    <property name="nodejs_package_manager_path" value="npm" />
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
@@ -57,6 +49,23 @@
       <recent name="D:\React-project\TRANSFER-PERSONAL\transfer-personal\src\components\Services" />
       <recent name="D:\React-project\TRANSFER-PERSONAL\transfer-personal\src\components\Services\Slide" />
     </key>
+  </component>
+  <component name="RunManager">
+    <configuration name="deploy" type="js.build_tools.npm" temporary="true" nameIsGenerated="true">
+      <package-json value="$PROJECT_DIR$/package.json" />
+      <command value="run" />
+      <scripts>
+        <script value="deploy" />
+      </scripts>
+      <node-interpreter value="project" />
+      <envs />
+      <method v="2" />
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="npm.deploy" />
+      </list>
+    </recent_temporary>
   </component>
   <component name="SvnConfiguration">
     <configuration />
@@ -95,6 +104,8 @@
       <workItem from="1615286153766" duration="1030000" />
       <workItem from="1615287320800" duration="641000" />
       <workItem from="1615287978679" duration="414000" />
+      <workItem from="1615291860258" duration="1349000" />
+      <workItem from="1615294464390" duration="1944000" />
     </task>
     <servers />
   </component>
@@ -106,10 +117,26 @@
       <screen x="0" y="0" width="1280" height="984" />
     </state>
     <state x="398" y="295" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1280.984@0.0.1280.984" timestamp="1615288150932" />
-    <state x="420" y="247" key="FileChooserDialogImpl" timestamp="1613816359522">
+    <state x="420" y="247" key="FileChooserDialogImpl" timestamp="1615293272811">
       <screen x="0" y="0" width="1280" height="984" />
     </state>
-    <state x="420" y="247" key="FileChooserDialogImpl/0.0.1280.984@0.0.1280.984" timestamp="1613816359522" />
+    <state x="420" y="247" key="FileChooserDialogImpl/0.0.1280.984@0.0.1280.984" timestamp="1615293272811" />
+    <state width="1259" height="263" key="GridCell.Tab.0.bottom" timestamp="1615296660195">
+      <screen x="0" y="0" width="1280" height="984" />
+    </state>
+    <state width="1259" height="263" key="GridCell.Tab.0.bottom/0.0.1280.984@0.0.1280.984" timestamp="1615296660195" />
+    <state width="1259" height="263" key="GridCell.Tab.0.center" timestamp="1615296660195">
+      <screen x="0" y="0" width="1280" height="984" />
+    </state>
+    <state width="1259" height="263" key="GridCell.Tab.0.center/0.0.1280.984@0.0.1280.984" timestamp="1615296660195" />
+    <state width="1259" height="263" key="GridCell.Tab.0.left" timestamp="1615296660195">
+      <screen x="0" y="0" width="1280" height="984" />
+    </state>
+    <state width="1259" height="263" key="GridCell.Tab.0.left/0.0.1280.984@0.0.1280.984" timestamp="1615296660195" />
+    <state width="1259" height="263" key="GridCell.Tab.0.right" timestamp="1615296660195">
+      <screen x="0" y="0" width="1280" height="984" />
+    </state>
+    <state width="1259" height="263" key="GridCell.Tab.0.right/0.0.1280.984@0.0.1280.984" timestamp="1615296660195" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
