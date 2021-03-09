@@ -57,7 +57,7 @@ const Klybnichka = () => {
 					 </ul>
 				 </div>
 				 <div className={w.vocansionImg}>
-					 <img src={OperatorImg} />
+					 <img src={OperatorImg} alt="OperatorImg"/>
 				 </div>
 			 </div>
 		 </div>

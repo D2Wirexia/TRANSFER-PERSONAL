@@ -18,7 +18,7 @@ const Home = (props) => {
 	return (
 		 <div className={w.body}>
 			 <div className={w.main}>
-				 <img src={backGround} />
+				 <img src={backGround} alt="backGround"/>
 			 </div>
 			 <div className={w.content}>
 				 <div className={w.title}>
@@ -27,7 +27,7 @@ const Home = (props) => {
 					 <div className={w.profile}>
 						 <NavLink to={'/contacts'}>
 							 <div className={w.photoProfile}>
-								 <img src={photoProfile}/>
+								 <img src={photoProfile} alt="photoProfile"/>
 							 </div>
 						 </NavLink>
 						 <div className={w.shortInfo}>
@@ -48,7 +48,7 @@ const Home = (props) => {
 					 </div>
 				 </div>
 				 <div className={w.bonusInfo}>
-					 <img src={mapSlovak} />
+					 <img src={mapSlovak} alt="mapSlovak"/>
 					 <div className={w.bonus}>
 						 <p>{bonus_info1}</p>
 						 <p>{bonus_info2}</p>

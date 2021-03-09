@@ -10,17 +10,17 @@ const Services = (props) => {
 
 	let slider =
 		 <div className={w.slider}>
-			 <img src={props.dataSlide[nowItemSlider].img}/>
+			 <img src={props.dataSlide[nowItemSlider].img} alt="sliderPhoto"/>
 			 <span>{props.dataSlide[nowItemSlider].description}</span>
-		 </div>
+		 </div>;
 
 
 	return(
 		 <div className={w.container}>
 			 <div className={w.backImg}>
-				 <img src={nitra} />
+				 <img src={nitra} alt="nitra"/>
 			 </div>
-			 <div className={w.frontImg}></div>
+			 <div className={w.frontImg}/>
 			<div className={w.sliderBlock}>
 			 <div className={w.prev} onClick={()=>{
 			 	props.prevBtn();
@@ -28,7 +28,7 @@ const Services = (props) => {
 					 props.setItemSlider(props.dataSlide.length - 1)
 				 }
 			 }}>
-				 <i className="fas fa-arrow-circle-left"></i>
+				 <i className="fas fa-arrow-circle-left"/>
 			 </div>
 
 			 {slider}
@@ -39,7 +39,7 @@ const Services = (props) => {
 					 props.setItemSlider(0)
 				 }
 			 }}>
-				 <i className="fas fa-arrow-circle-right"></i>
+				 <i className="fas fa-arrow-circle-right"/>
 			 </div>
 		 </div>
 		 </div>

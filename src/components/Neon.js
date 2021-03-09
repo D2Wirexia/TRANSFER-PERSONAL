@@ -6,11 +6,11 @@ import song from './song.mp3'
 const Neon = () => {
 	return(
 		 <div className={w.presentation}>
-			 <img src={neon} />
+			 <img src={neon} alt="neon"/>
 			 <div className={w.texter}>
 				 Сайт визиточка <br/><i>©Wirexia</i>
 			 </div>
-			 <audio preload autoPlay loop src={song}/>
+			 <audio preload="true" autoPlay="true" loop src={song}/>
 		 </div>
 	)
 };

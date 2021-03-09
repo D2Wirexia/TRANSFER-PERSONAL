@@ -3,22 +3,17 @@
   <component name="ChangeListManager">
     <list default="true" id="6cb98e31-b6cd-4655-8ee2-e22ee5bbd92a" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/Contacts/Contacts.module.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Contacts/Contacts.module.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Contacts/Contacts.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Contacts/Contacts.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/components/Home/Home.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Home/Home.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/Home/Home.module.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Home/Home.module.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Home/HomeContainer.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Home/HomeContainer.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Neon.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Neon.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/components/Services/Services.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Services/Services.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/Services/Services.module.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Services/Services.module.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/Services/ServicesContainer.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Services/ServicesContainer.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/Vacansions/Operator-proizvodstva/Operator-proizvodstva.module.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Vacansions/Operator-proizvodstva/Operator-proizvodstva.module.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Vacansions/Operator-proizvodstva/Operator-proizvodstva.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Vacansions/Operator-proizvodstva/Operator-proizvodstva.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/components/Vacansions/Stock/Stock.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Vacansions/Stock/Stock.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/Vacansions/Stock/Stock.module.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Vacansions/Stock/Stock.module.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/components/Vacansions/Vacansions.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Vacansions/Vacansions.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/components/Vacansions/klybnichka/Klybnichka.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Vacansions/klybnichka/Klybnichka.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/components/Vacansions/klybnichka/Klybnichka.module.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Vacansions/klybnichka/Klybnichka.module.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/img/bordel.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/src/img/bordel.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/logo.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/redux/ServicesReducer.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/redux/ServicesReducer.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/redux/dataSlide.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/redux/dataSlide.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -95,6 +90,11 @@
       <workItem from="1605027272204" duration="53000" />
       <workItem from="1607002892837" duration="21000" />
       <workItem from="1613759991001" duration="1301000" />
+      <workItem from="1613762083767" duration="1094000" />
+      <workItem from="1613816150492" duration="209000" />
+      <workItem from="1615286153766" duration="1030000" />
+      <workItem from="1615287320800" duration="641000" />
+      <workItem from="1615287978679" duration="414000" />
     </task>
     <servers />
   </component>
@@ -102,27 +102,18 @@
     <option name="version" value="1" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="420" y="247" key="FileChooserDialogImpl" timestamp="1605027323395">
+    <state x="398" y="295" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1615288150932">
       <screen x="0" y="0" width="1280" height="984" />
     </state>
-    <state x="420" y="247" key="FileChooserDialogImpl/0.0.1280.984@0.0.1280.984" timestamp="1605027323395" />
-    <state x="296" y="226" key="run.anything.popup" timestamp="1602837079447">
+    <state x="398" y="295" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1280.984@0.0.1280.984" timestamp="1615288150932" />
+    <state x="420" y="247" key="FileChooserDialogImpl" timestamp="1613816359522">
       <screen x="0" y="0" width="1280" height="984" />
     </state>
-    <state x="296" y="226" key="run.anything.popup/0.0.1280.984@0.0.1280.984" timestamp="1602837079447" />
-    <state x="390" y="336" width="672" height="678" key="search.everywhere.popup" timestamp="1602930503004">
-      <screen x="0" y="0" width="1280" height="984" />
-    </state>
-    <state x="390" y="336" width="672" height="678" key="search.everywhere.popup/0.0.1280.984@0.0.1280.984" timestamp="1602930503004" />
+    <state x="420" y="247" key="FileChooserDialogImpl/0.0.1280.984@0.0.1280.984" timestamp="1613816359522" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
       <breakpoints>
-        <line-breakpoint enabled="true" type="javascript">
-          <url>file://$PROJECT_DIR$/src/components/Home/Home.js</url>
-          <line>22</line>
-          <option name="timeStamp" value="2" />
-        </line-breakpoint>
         <line-breakpoint enabled="true" type="javascript">
           <url>file://$PROJECT_DIR$/src/components/Vacansions/Operator-proizvodstva/Operator-proizvodstva.js</url>
           <line>56</line>
@@ -131,11 +122,6 @@
         <line-breakpoint enabled="true" type="javascript">
           <url>file://$PROJECT_DIR$/src/redux/dataSlide.js</url>
           <option name="timeStamp" value="4" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="javascript">
-          <url>file://$PROJECT_DIR$/src/components/Home/Home.js</url>
-          <line>23</line>
-          <option name="timeStamp" value="5" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>

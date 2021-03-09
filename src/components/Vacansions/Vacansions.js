@@ -6,7 +6,6 @@ import OperatorProizvodstva from "./Operator-proizvodstva/Operator-proizvodstva"
 import Stock from "./Stock/Stock";
 import Klybnichka from "./klybnichka/Klybnichka";
 import NoVac from "./NoVac/NoVac";
-import Neon from "../Neon";
 
 const Vacansions = () => {
 	const setOnly_Operator_proizvodstva = true;
@@ -16,18 +15,18 @@ const Vacansions = () => {
 	return(
 		 <div className={w.vacansion}>
 			 <div className={w.backImg}>
-				 <img src={nitra} />
+				 <img src={nitra} alt="nitra"/>
 			 </div>
 			 <div className={w.frontImg} />
 			 <div className={w.switchBnt}>
 				 <NavLink to="/vacancies/Operator-proizvodstva" activeClassName={w.active}>
-					 <div className={`${w.chooseBtn} ${setOnly_Operator_proizvodstva == false && w.postponed}`}>Оператор производства</div>
+					 <div className={`${w.chooseBtn} ${setOnly_Operator_proizvodstva === false && w.postponed}`}>Оператор производства</div>
 				 </NavLink>
 				 <NavLink to="/vacancies/sklad" activeClassName={w.active}>
-					 <div className={`${w.chooseBtn} ${setOnly_Operator_sklada == false && w.postponed}`}>Оператор склада</div>
+					 <div className={`${w.chooseBtn} ${setOnly_Operator_sklada === false && w.postponed}`}>Оператор склада</div>
 				 </NavLink>
 				 <NavLink to="/vacancies/klybnichka" activeClassName={w.active}>
-					 <div className={`${w.chooseBtn} ${setOnly_klubnichka == false && w.postponed}`}>Клубничка</div>
+					 <div className={`${w.chooseBtn} ${setOnly_klubnichka === false && w.postponed}`}>Клубничка</div>
 				 </NavLink>
 			 </div>
 			 <div className={w.componentVac}>
