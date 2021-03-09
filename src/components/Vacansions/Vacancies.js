@@ -7,7 +7,7 @@ import Stock from "./Stock/Stock";
 import Klybnichka from "./klybnichka/Klybnichka";
 import NoVac from "./NoVac/NoVac";
 
-const Vacansions = () => {
+const Vacancies = () => {
 	const setOnly_Operator_proizvodstva = true;
 	const setOnly_Operator_sklada = false;
 	const setOnly_klubnichka = true;
@@ -45,4 +45,4 @@ const Vacansions = () => {
 	)
 };
 
-export default Vacansions;
+export default Vacancies;

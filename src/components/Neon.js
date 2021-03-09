@@ -10,7 +10,7 @@ const Neon = () => {
 			 <div className={w.texter}>
 				 Сайт визиточка <br/><i>©Wirexia</i>
 			 </div>
-			 <audio preload="true" autoPlay="true" loop src={song}/>
+			 <audio preload="true" autoPlay="autoPlay" loop src={song}/>
 		 </div>
 	)
 };
