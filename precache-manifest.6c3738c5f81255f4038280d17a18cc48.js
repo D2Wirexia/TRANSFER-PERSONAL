@@ -1,6 +1,6 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "b53a8ba4f6168b39e571bacf1c57818e",
+    "revision": "2b1ef57bc7dca7b09a5fb668d79499c2",
     "url": "/TRANSFER-PERSONAL/index.html"
   },
   {
@@ -8,8 +8,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/TRANSFER-PERSONAL/static/css/2.9dd49d4e.chunk.css"
   },
   {
-    "revision": "6346aba7e0e347f16cbf",
-    "url": "/TRANSFER-PERSONAL/static/css/main.bfabf6d2.chunk.css"
+    "revision": "02f7648280a2cf3e72b6",
+    "url": "/TRANSFER-PERSONAL/static/css/main.3f6b8780.chunk.css"
   },
   {
     "revision": "0c92d61391e214e5a7c4",
@@ -20,8 +20,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/TRANSFER-PERSONAL/static/js/2.a552244b.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "6346aba7e0e347f16cbf",
-    "url": "/TRANSFER-PERSONAL/static/js/main.874db5d6.chunk.js"
+    "revision": "02f7648280a2cf3e72b6",
+    "url": "/TRANSFER-PERSONAL/static/js/main.2b65c05b.chunk.js"
   },
   {
     "revision": "c30cfdc3e9bed1b58e61",
