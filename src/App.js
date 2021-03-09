@@ -14,7 +14,7 @@ const App = () => {
   return (
       <div className="App">
          <Header />
-         <Route exact path="/" render={() => <Neon/>} />
+         <Route  path="/" render={() => <Neon/>} />
          <Route path="/main" render={() => <HomeContainer />} />
          <Route path="/vacancies" render={() => <Vacancies />} />
          <Route path="/services" render={() => <ServicesContainer />} />
