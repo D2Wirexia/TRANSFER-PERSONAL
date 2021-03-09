@@ -1,8 +1,11 @@
 import React from "react";
 import w from './Operator-proizvodstva.module.css'
 import OperatorImg from '../../../img/zavod.jpg'
+import NoVac from "../NoVac/NoVac";
 
 const OperatorProizvodstva = () => {
+	const postponed = true;
+
 	return(
 		 <div className={w.vacansion}>
 			 <div className={w.topInfo}>Мы предлагаем работу в Словакии оператором производства в городе Трнава на заводе PSA Group. <i>(В основном мужчины, или люди с опытом в данной сфере)</i></div>
@@ -56,6 +59,9 @@ const OperatorProizvodstva = () => {
 				 </div>
 				 <div className={w.vocansionImg}>
 					 <img src={OperatorImg} alt="OperatorImg"/>
+					 {
+						 !postponed ? <NoVac/> : null
+					 }
 				 </div>
 			 </div>
 		 </div>

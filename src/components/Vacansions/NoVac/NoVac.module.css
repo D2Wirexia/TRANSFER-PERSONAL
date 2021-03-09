@@ -4,10 +4,9 @@
 	border: 3px solid #ff2239;
 	color: #ff2239;
 	padding: 15px 100px 15px 100px;
-
+	margin: -285px 0 0 50px;
 	background: #fff;
 	opacity: .7;
 	text-align: center;
-	margin: 20%;
 	transform: rotateZ(-15deg);
 }

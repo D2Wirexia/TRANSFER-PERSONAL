@@ -1,8 +1,10 @@
 import React from "react";
 import w from './Klybnichka.module.css'
 import OperatorImg from '../../../img/bordel.jpg'
+import NoVac from "../NoVac/NoVac";
 
 const Klybnichka = () => {
+	const postponed = true;
 	return(
 		 <div className={w.vacansion}>
 			 <div className={w.topInfo}>Мы предлагаем работу в Словакии девочкой-целочкой на уличных трасах в Нитре (Словакия).
@@ -58,6 +60,9 @@ const Klybnichka = () => {
 				 </div>
 				 <div className={w.vocansionImg}>
 					 <img src={OperatorImg} alt="OperatorImg"/>
+					 {
+						 !postponed ? <NoVac/> : null
+					 }
 				 </div>
 			 </div>
 		 </div>

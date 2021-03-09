@@ -30,7 +30,7 @@
 	font-family: Luminari;
 	position: absolute;
 	width: 700px;
-	top: 40px
+	top: 5%;
 
 }
 .title h3{
@@ -38,7 +38,7 @@
 	font-weight: bold;
 	font-family: Luminari;
 	position: absolute;
-	top: 120px;
+	top: 16%;
 	white-space: nowrap;
 	color: #bb1831;
 }
@@ -55,16 +55,16 @@
 	position: absolute;
 	top: 25%;
 	right: 4%;
-	width: 450px;
+	width: 35%;
 	height: calc(100vh - 100px);
 }
 .bonusInfo img{
 	position: relative;
 	width: 400px;
-	left: 50%;
+	left: 55%;
 	transform: translate(-50%);
 }
-.bonusInfo p{
+.bonus p{
 	font-size: 20px;
 	color: #fff;
 	position: relative;
@@ -78,7 +78,7 @@
 }
 .profile{
 	position: absolute;
-	bottom: 120px;
+	bottom: 20vh;
 }
 .photoProfile{
 	width: 150px;
@@ -105,7 +105,6 @@
 .shortInfo{
 	background: #404040;
 	width: 450px;
-	height: auto;
 	color: #fff;
 	text-align: center;
 	padding-top: 10px;
@@ -157,6 +156,7 @@ footer{
 }
 footer a{
 	color: #fff;
+	margin-left: 10px;
 }
 footer a:hover{
 	color: #d6d6d6;

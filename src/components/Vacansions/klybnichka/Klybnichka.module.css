@@ -1,16 +1,20 @@
 .vacansion{
 	color: #fff;
-	font-size: 24px;
+	font-size: 26px;
 }
 .container{
-	display: inline-block;
+	display: flex;
+	align-items: center;
+	flex-direction: row;
+	justify-content: center;
+	width: 1100px;
+	height: 500px;
 }
 .vocansionImg{
-	position: absolute;
-	left: 35%;
-	bottom: 70px;
-	height: 40vh;
+	height: 350px;
 	width: 60%;
+	right: 50px;
+	position: absolute;
 }
 .vocansionImg img{
 	width: 100%;
@@ -18,14 +22,14 @@
 }
 .list{
 	position: absolute;
-	top: 50%;
-	transform: translate(0, -50%);
 	z-index: 2;
+	left: 10px;
+	margin-bottom: 30px;
 }
 .topInfo{
 	width: 90%;
 	position: relative;
-	margin: 20px auto;
+	margin: 30px auto 0;
 	text-align: justify;
 	text-indent: 1em;
 }
@@ -66,6 +70,9 @@ li:hover{
 	display: none;
 	left: 100%;
 	top: -100%;
+}
+.submenu1{
+	top: -73px
 }
 .submenu4{
 	top: -500%

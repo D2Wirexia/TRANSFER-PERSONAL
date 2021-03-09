@@ -56,7 +56,7 @@ const Home = (props) => {
 				 </div>
 			 </div>
 			 <footer>
-				 <div>©2020 Работа в Словакии. Сайт визитка - &nbsp;
+				 <div>©2020 Работа в Словакии. Сайт визитка &mdash;
 					 <a href="https://transfer-personal.com/sk/"><u>TRANSFER PERSONAL</u></a>
 				 </div>
 			 </footer>

@@ -1,9 +1,10 @@
 import React from "react";
 import w from './Stock.module.css'
 import OperatorImg from '../../../img/sklad.png'
+import NoVac from "../NoVac/NoVac";
 
 const Stock = () => {
-	var postponed = false;
+	const postponed = false;
 
 	return(
 		 <div className={w.vacansion}>
@@ -68,13 +69,12 @@ const Stock = () => {
 				 </div>
 				 <div className={w.vacansionImg}>
 					 <img src={OperatorImg} alt="OperatorImg"/>
+					 {
+						 !postponed ? <NoVac/> : null
+					 }
 				 </div>
 			 </div>
-			 {
-				 postponed === false
-					  ? <div className={w.postponed}>Гуляй лесом <br/>мест нету...</div>
-				 : <div/>
-			 }
+
 
 		 </div>
 	)
