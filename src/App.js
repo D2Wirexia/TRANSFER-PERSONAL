@@ -15,10 +15,10 @@ const App = () => {
       <div className="App">
          <Header />
          <Route exact path="/" component={Neon} />
-         <Route path="/main" render={() => <HomeContainer />} />
-         <Route path="/vacancies" render={() => <Vacansions />} />
-         <Route path="/services" render={() => <ServicesContainer />} />
-         <Route path="/contacts" render={() =>  <Contacts />} />
+         <Route exact path="/main" render={() => <HomeContainer />} />
+         <Route exact path="/vacancies" render={() => <Vacansions />} />
+         <Route exact path="/services" render={() => <ServicesContainer />} />
+         <Route exact path="/contacts" render={() =>  <Contacts />} />
       </div>
 );
 }
