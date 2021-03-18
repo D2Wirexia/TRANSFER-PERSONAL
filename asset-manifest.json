@@ -1,19 +1,19 @@
 {
   "files": {
     "main.css": "/~slovakay/static/css/main.1735fe69.chunk.css",
-    "main.js": "/~slovakay/static/js/main.74bda336.chunk.js",
-    "main.js.map": "/~slovakay/static/js/main.74bda336.chunk.js.map",
+    "main.js": "/~slovakay/static/js/main.0d65cdb8.chunk.js",
+    "main.js.map": "/~slovakay/static/js/main.0d65cdb8.chunk.js.map",
     "runtime-main.js": "/~slovakay/static/js/runtime-main.d73d4672.js",
     "runtime-main.js.map": "/~slovakay/static/js/runtime-main.d73d4672.js.map",
     "static/css/2.9dd49d4e.chunk.css": "/~slovakay/static/css/2.9dd49d4e.chunk.css",
-    "static/js/2.56be338a.chunk.js": "/~slovakay/static/js/2.56be338a.chunk.js",
-    "static/js/2.56be338a.chunk.js.map": "/~slovakay/static/js/2.56be338a.chunk.js.map",
+    "static/js/2.530fc1d8.chunk.js": "/~slovakay/static/js/2.530fc1d8.chunk.js",
+    "static/js/2.530fc1d8.chunk.js.map": "/~slovakay/static/js/2.530fc1d8.chunk.js.map",
     "index.html": "/~slovakay/index.html",
-    "precache-manifest.e5552c03f55986a374e7748453f0c7fd.js": "/~slovakay/precache-manifest.e5552c03f55986a374e7748453f0c7fd.js",
+    "precache-manifest.5f1fb2f3c5481dce029c18ca44613b2d.js": "/~slovakay/precache-manifest.5f1fb2f3c5481dce029c18ca44613b2d.js",
     "service-worker.js": "/~slovakay/service-worker.js",
     "static/css/2.9dd49d4e.chunk.css.map": "/~slovakay/static/css/2.9dd49d4e.chunk.css.map",
     "static/css/main.1735fe69.chunk.css.map": "/~slovakay/static/css/main.1735fe69.chunk.css.map",
-    "static/js/2.56be338a.chunk.js.LICENSE.txt": "/~slovakay/static/js/2.56be338a.chunk.js.LICENSE.txt",
+    "static/js/2.530fc1d8.chunk.js.LICENSE.txt": "/~slovakay/static/js/2.530fc1d8.chunk.js.LICENSE.txt",
     "static/media/bordel.jpg": "/~slovakay/static/media/bordel.8cdca23e.jpg",
     "static/media/contactTest.png": "/~slovakay/static/media/contactTest.35022129.png",
     "static/media/dox.png": "/~slovakay/static/media/dox.9e880905.png",
@@ -26,7 +26,6 @@
     "static/media/nitra.jpg": "/~slovakay/static/media/nitra.827125e6.jpg",
     "static/media/registration.png": "/~slovakay/static/media/registration.76bede0b.png",
     "static/media/sklad.png": "/~slovakay/static/media/sklad.db356064.png",
-    "static/media/song.mp3": "/~slovakay/static/media/song.624e8318.mp3",
     "static/media/test.png": "/~slovakay/static/media/test.0fa30b40.png",
     "static/media/watsapp.png": "/~slovakay/static/media/watsapp.392ad454.png",
     "static/media/zavod.jpg": "/~slovakay/static/media/zavod.506c7673.jpg"
@@ -34,8 +33,8 @@
   "entrypoints": [
     "static/js/runtime-main.d73d4672.js",
     "static/css/2.9dd49d4e.chunk.css",
-    "static/js/2.56be338a.chunk.js",
+    "static/js/2.530fc1d8.chunk.js",
     "static/css/main.1735fe69.chunk.css",
-    "static/js/main.74bda336.chunk.js"
+    "static/js/main.0d65cdb8.chunk.js"
   ]
 }
