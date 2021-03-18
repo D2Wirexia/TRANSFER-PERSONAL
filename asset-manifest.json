@@ -1,19 +1,19 @@
 {
   "files": {
     "main.css": "/TRANSFER-PERSONAL/static/css/main.8f1264bb.chunk.css",
-    "main.js": "/TRANSFER-PERSONAL/static/js/main.70a95ae0.chunk.js",
-    "main.js.map": "/TRANSFER-PERSONAL/static/js/main.70a95ae0.chunk.js.map",
+    "main.js": "/TRANSFER-PERSONAL/static/js/main.48321448.chunk.js",
+    "main.js.map": "/TRANSFER-PERSONAL/static/js/main.48321448.chunk.js.map",
     "runtime-main.js": "/TRANSFER-PERSONAL/static/js/runtime-main.84e7aaa7.js",
     "runtime-main.js.map": "/TRANSFER-PERSONAL/static/js/runtime-main.84e7aaa7.js.map",
     "static/css/2.9dd49d4e.chunk.css": "/TRANSFER-PERSONAL/static/css/2.9dd49d4e.chunk.css",
-    "static/js/2.025debbd.chunk.js": "/TRANSFER-PERSONAL/static/js/2.025debbd.chunk.js",
-    "static/js/2.025debbd.chunk.js.map": "/TRANSFER-PERSONAL/static/js/2.025debbd.chunk.js.map",
+    "static/js/2.390fd72c.chunk.js": "/TRANSFER-PERSONAL/static/js/2.390fd72c.chunk.js",
+    "static/js/2.390fd72c.chunk.js.map": "/TRANSFER-PERSONAL/static/js/2.390fd72c.chunk.js.map",
     "index.html": "/TRANSFER-PERSONAL/index.html",
-    "precache-manifest.3feaffb6acb2ff0641e1cae6aacbdc48.js": "/TRANSFER-PERSONAL/precache-manifest.3feaffb6acb2ff0641e1cae6aacbdc48.js",
+    "precache-manifest.ce2755a66e9c5042f0c82a2aaeea05a4.js": "/TRANSFER-PERSONAL/precache-manifest.ce2755a66e9c5042f0c82a2aaeea05a4.js",
     "service-worker.js": "/TRANSFER-PERSONAL/service-worker.js",
     "static/css/2.9dd49d4e.chunk.css.map": "/TRANSFER-PERSONAL/static/css/2.9dd49d4e.chunk.css.map",
     "static/css/main.8f1264bb.chunk.css.map": "/TRANSFER-PERSONAL/static/css/main.8f1264bb.chunk.css.map",
-    "static/js/2.025debbd.chunk.js.LICENSE.txt": "/TRANSFER-PERSONAL/static/js/2.025debbd.chunk.js.LICENSE.txt",
+    "static/js/2.390fd72c.chunk.js.LICENSE.txt": "/TRANSFER-PERSONAL/static/js/2.390fd72c.chunk.js.LICENSE.txt",
     "static/media/bordel.jpg": "/TRANSFER-PERSONAL/static/media/bordel.8cdca23e.jpg",
     "static/media/contactTest.png": "/TRANSFER-PERSONAL/static/media/contactTest.35022129.png",
     "static/media/dox.png": "/TRANSFER-PERSONAL/static/media/dox.9e880905.png",
@@ -34,8 +34,8 @@
   "entrypoints": [
     "static/js/runtime-main.84e7aaa7.js",
     "static/css/2.9dd49d4e.chunk.css",
-    "static/js/2.025debbd.chunk.js",
+    "static/js/2.390fd72c.chunk.js",
     "static/css/main.8f1264bb.chunk.css",
-    "static/js/main.70a95ae0.chunk.js"
+    "static/js/main.48321448.chunk.js"
   ]
 }
