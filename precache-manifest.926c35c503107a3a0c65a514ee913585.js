@@ -1,27 +1,27 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "2640335b01a553e92efa5d1bcd1dfafb",
+    "revision": "067a2a011dcbb9ef2cd3523ea88d91c8",
     "url": "/~slovakay/index.html"
   },
   {
-    "revision": "d6bb69d0314ac1ac757e",
+    "revision": "c54df72ea06e99550fff",
     "url": "/~slovakay/static/css/2.9dd49d4e.chunk.css"
   },
   {
-    "revision": "07d4512f64dcb294326e",
+    "revision": "c1768766b76be16ce8d9",
     "url": "/~slovakay/static/css/main.1735fe69.chunk.css"
   },
   {
-    "revision": "d6bb69d0314ac1ac757e",
-    "url": "/~slovakay/static/js/2.530fc1d8.chunk.js"
+    "revision": "c54df72ea06e99550fff",
+    "url": "/~slovakay/static/js/2.56be338a.chunk.js"
   },
   {
     "revision": "c64c486544348f10a6d6c716950bc223",
-    "url": "/~slovakay/static/js/2.530fc1d8.chunk.js.LICENSE.txt"
+    "url": "/~slovakay/static/js/2.56be338a.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "07d4512f64dcb294326e",
-    "url": "/~slovakay/static/js/main.0d65cdb8.chunk.js"
+    "revision": "c1768766b76be16ce8d9",
+    "url": "/~slovakay/static/js/main.cf2abbcc.chunk.js"
   },
   {
     "revision": "cfb600c591d5aa8f03ce",
@@ -130,6 +130,10 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
     "revision": "db356064c752df5fe478a3314ab3092f",
     "url": "/~slovakay/static/media/sklad.db356064.png"
+  },
+  {
+    "revision": "624e83181fa405a5319bc0024f1f556c",
+    "url": "/~slovakay/static/media/song.624e8318.mp3"
   },
   {
     "revision": "0fa30b40ba9ee5146ac78bb42bc6a558",
