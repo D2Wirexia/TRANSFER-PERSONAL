@@ -1,6 +1,6 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "6a9781fbaa3c8ca36f141f3d266cc952",
+    "revision": "f4134ffcb4745851b0bedc254c8b7bb5",
     "url": "/TRANSFER-PERSONAL/index.html"
   },
   {
@@ -8,7 +8,7 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/TRANSFER-PERSONAL/static/css/2.9dd49d4e.chunk.css"
   },
   {
-    "revision": "982d8d337629ef572ea7",
+    "revision": "30a31e3d58a50b26d0fb",
     "url": "/TRANSFER-PERSONAL/static/css/main.8f1264bb.chunk.css"
   },
   {
@@ -20,8 +20,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/TRANSFER-PERSONAL/static/js/2.390fd72c.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "982d8d337629ef572ea7",
-    "url": "/TRANSFER-PERSONAL/static/js/main.48321448.chunk.js"
+    "revision": "30a31e3d58a50b26d0fb",
+    "url": "/TRANSFER-PERSONAL/static/js/main.fe30b5a8.chunk.js"
   },
   {
     "revision": "c30cfdc3e9bed1b58e61",
